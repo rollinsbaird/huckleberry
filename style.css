@@ -23,34 +23,71 @@ body {
   --white: hsl(0deg, 0%, 100%);
 }
 
-body {
-  font-family: Lato;
-  background-color: var(--white);
+/* body {
+} */
+
+.max-width-wrapper {
+  max-width: 780px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
 
 header {
+  background-color: var(--white);
   margin-block-start: 64px;
   margin-block-end: 48px;
+}
+
+.intro-chunk {
+  max-width: 425px;
 }
 
 strong {
   color: var(--primary);
 }
 
+.title {
+  font-size: 2rem;
+  margin-inline-start: 16px;
+  margin-block-end: 48px;
+}
+
+/* .intro-class p {
+  font-size: 1.25rem;
+} */
+
+p {
+  font-size: 1.25rem;
+  margin-inline-start: 16px;
+}
+
 main {
-  background-color: var(--dark);
-  margin-block-start: 32px;
-  margin-block-end: 32px;
+  background-color: var(--medium);
+  padding-block-start: 32px;
+  padding-block-end: 32px;
+  border-block-start: 8px solid var(--light);
 }
 
 .card {
   background-color: var(--white);
+  padding-block-start: 8px;
+  padding-inline-end: 8px;
+  border-block-end: 8px solid var(--light);
 }
 
 h2 {
+  font-size: 1.5rem;
   background-color: var(--secondary-light);
   width: fit-content;
-  padding-inline-start: 16px;
-  padding-inline-end: 16px;
+  margin: 0;
+  margin-inline-start: -8px;
+  padding-block-start: 8px;
+  padding-inline-start: 24px;
+  padding-block-end: 8px;
+  padding-inline-end: 24px;
   border-block-end: 8px solid var(--secondary-dark);
+}
+
+em {
+  font-style: normal;
 }
