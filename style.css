@@ -34,7 +34,7 @@ body {
 
 header {
   background-color: var(--white);
-  margin-block-start: 64px;
+  margin-block-start: 96px;
   margin-block-end: 48px;
 }
 
@@ -63,15 +63,15 @@ p {
 
 main {
   background-color: var(--medium);
-  padding-block-start: 32px;
-  padding-block-end: 32px;
+  padding-block-start: 64px;
+  padding-block-end: 64px;
   border-block-start: 8px solid var(--light);
 }
 
 .card {
   background-color: var(--white);
   padding-block-start: 8px;
-  padding-inline-end: 8px;
+  padding-inline-end: 16px;
   border-block-end: 8px solid var(--light);
 }
 
