@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -22,9 +22,6 @@ body {
   --light: hsl(0deg, 0%, 60%);
   --white: hsl(0deg, 0%, 100%);
 }
-
-/* body {
-} */
 
 .max-width-wrapper {
   max-width: 780px;
@@ -51,10 +48,6 @@ strong {
   margin-inline-start: 16px;
   margin-block-end: 48px;
 }
-
-/* .intro-class p {
-  font-size: 1.25rem;
-} */
 
 p {
   font-size: 1.25rem;
