@@ -10,3 +10,47 @@ body {
 }
 
 /* Add styles here! */
+
+:root {
+  --primary: hsl(160deg, 100%, 30%);
+  --secondary-light: hsl(45deg, 100%, 50%);
+  --secondary-dark: hsl(45deg, 100%, 40%);
+  --black: hsl(0deg, 0%, 0%);
+  --very-dark: hsl(0deg, 0%, 10%);
+  --dark: hsl(0deg, 0%, 30%);
+  --medium: hsl(0deg, 0%, 40%);
+  --light: hsl(0deg, 0%, 60%);
+  --white: hsl(0deg, 0%, 100%);
+}
+
+body {
+  font-family: Lato;
+  background-color: var(--white);
+}
+
+header {
+  margin-block-start: 64px;
+  margin-block-end: 48px;
+}
+
+strong {
+  color: var(--primary);
+}
+
+main {
+  background-color: var(--dark);
+  margin-block-start: 32px;
+  margin-block-end: 32px;
+}
+
+.card {
+  background-color: var(--white);
+}
+
+h2 {
+  background-color: var(--secondary-light);
+  width: fit-content;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  border-block-end: 8px solid var(--secondary-dark);
+}
